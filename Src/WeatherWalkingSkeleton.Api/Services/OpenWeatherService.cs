@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Options;
 using WeatherWalkingSkeleton.Config;
 using WeatherWalkingSkeleton.Infrastructure;
-using WeatherWalkingSkeleton.Models;
+using WeatherWalkingSkeleton.Core;
 
 namespace WeatherWalkingSkeleton.Services
 

@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Moq;
 using Moq.Protected;
 
-namespace WeatherWalkingSkeleton.Tests.Infrastructure
+namespace WeatherWalkingSkeleton.XunitTests.Infrastructure
 {
     public static class ClientBuilder
     {

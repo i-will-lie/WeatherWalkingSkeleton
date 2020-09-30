@@ -12,6 +12,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using WeatherWalkingSkeleton.Config;
 using WeatherWalkingSkeleton.Services;
+using WeatherWalkingSkeleton.Data;
 
 
 namespace WeatherWalkingSkeleton
@@ -42,6 +43,8 @@ namespace WeatherWalkingSkeleton
 
             services.AddRazorPages();
 
+            services.AddSingleton<IWeatherData, InMemoryWeatherData>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -62,11 +65,8 @@ namespace WeatherWalkingSkeleton
             {
                 endpoints.MapRazorPages();
                 endpoints.MapControllers();
-                endpoints.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapBlazorHub();
-               
+                              
             });
         }
     }

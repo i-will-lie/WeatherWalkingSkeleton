@@ -17,7 +17,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\API\WeatherWalkingSkeleton.csproj" />
+    <ProjectReference Include="..\..\Src\WeatherWalkingSkeleton.Api\WeatherWalkingSkeleton.Api.csproj" />
+    <ProjectReference Include="..\..\Src\WeatherWalkingSkeleton.Core\WeatherWalkingSkeleton.Core.csproj" />
   </ItemGroup>
 
 </Project>

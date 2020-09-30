@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Options;
 using WeatherWalkingSkeleton.Config;
 
-namespace WeatherWalkingSkeleton.Tests.Infrastructure
+namespace WeatherWalkingSkeleton.XunitTests.Infrastructure
 {
     public static class OptionsBuilder
     {

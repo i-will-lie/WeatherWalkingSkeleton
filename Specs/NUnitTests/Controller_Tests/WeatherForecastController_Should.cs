@@ -6,20 +6,19 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging.Abstractions;
 using WeatherWalkingSkeleton.Controllers;
 using WeatherWalkingSkeleton.Infrastructure;
-using WeatherWalkingSkeleton.Models;
 using WeatherWalkingSkeleton.Services;
-using WeatherWalkingSkeleton.Tests.Infrastructure;
+using WeatherWalkingSkeleton.NunitTests.Infrastructure;
 using NUnit.Framework;
 using FluentAssertions;
 using System.Net.Http;
 using WeatherWalkingSkeleton.Config;
 using Microsoft.Extensions.Options;
 using NSubstitute;
-using Tests.Infrastructure;
+using WeatherWalkingSkeleton.Core;
 
-namespace WeatherWalkingSkeleton.Tests.Controllers_Tests
+namespace WeatherWalkingSkeleton.NunitTests.Controllers_Tests
 {
-    
+
     public class WeatherForecastController_Should
     {
 

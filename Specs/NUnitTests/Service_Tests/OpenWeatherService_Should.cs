@@ -4,15 +4,13 @@ using NSubstitute;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
-using System.Collections.Specialized;
 using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
-using Tests.Infrastructure;
 using WeatherWalkingSkeleton.Config;
 using WeatherWalkingSkeleton.Infrastructure;
-using WeatherWalkingSkeleton.Models;
-using WeatherWalkingSkeleton.Tests.Infrastructure;
+using WeatherWalkingSkeleton.Core;
+using WeatherWalkingSkeleton.NunitTests.Infrastructure;
 
 
 namespace WeatherWalkingSkeleton.Services

@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Net.Http;
 using System.Text.Json;
-using WeatherWalkingSkeleton.Models;
+using WeatherWalkingSkeleton.Core;
 
-namespace WeatherWalkingSkeleton.Tests.Infrastructure
+namespace WeatherWalkingSkeleton.XunitTests.Infrastructure
 {
     public static class OpenWeatherResponses
     {

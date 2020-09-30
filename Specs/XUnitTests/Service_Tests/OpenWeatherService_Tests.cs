@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Net;
 using System.Threading.Tasks;
+using WeatherWalkingSkeleton.Core;
 using WeatherWalkingSkeleton.Infrastructure;
-using WeatherWalkingSkeleton.Models;
-using WeatherWalkingSkeleton.Tests.Infrastructure;
+using WeatherWalkingSkeleton.XunitTests.Infrastructure;
 using Xunit;
 
 namespace WeatherWalkingSkeleton.Services

@@ -6,12 +6,13 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging.Abstractions;
 using WeatherWalkingSkeleton.Controllers;
 using WeatherWalkingSkeleton.Infrastructure;
-using WeatherWalkingSkeleton.Models;
 using WeatherWalkingSkeleton.Services;
-using WeatherWalkingSkeleton.Tests.Infrastructure;
 using Xunit;
+using WeatherWalkingSkeleton.Core;
+using Microsoft.Extensions.Options;
+using WeatherWalkingSkeleton.XunitTests.Infrastructure;
 
-namespace WeatherWalkingSkeleton.Tests.Controllers_Tests
+namespace WeatherWalkingSkeleton.NunitTests.Controllers_Tests
 {
     public class WeatherForecastController_Tests
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace WeatherWalkingSkeleton.Models
+namespace WeatherWalkingSkeleton.Core
 {
     public class WeatherForecast
     {

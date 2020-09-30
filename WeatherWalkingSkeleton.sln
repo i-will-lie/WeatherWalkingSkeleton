@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XunitTests", "Specs\XUnitTe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NunitTests", "Specs\NUnitTests\NunitTests.csproj", "{EA4BC5F0-15FA-4014-8738-57B492D6D449}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherWalkingSkeleton.Data", "Src\WeatherWalkingSkeleton.Data\WeatherWalkingSkeleton.Data.csproj", "{A41F3A98-B599-491F-AA9F-F1D838484A51}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{EA4BC5F0-15FA-4014-8738-57B492D6D449}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA4BC5F0-15FA-4014-8738-57B492D6D449}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA4BC5F0-15FA-4014-8738-57B492D6D449}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A41F3A98-B599-491F-AA9F-F1D838484A51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A41F3A98-B599-491F-AA9F-F1D838484A51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A41F3A98-B599-491F-AA9F-F1D838484A51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A41F3A98-B599-491F-AA9F-F1D838484A51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

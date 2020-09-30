@@ -1,15 +1,11 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <UserSecretsId>90428b3f-ee12-455d-b051-72bb33512771</UserSecretsId>
-
   </PropertyGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\WeatherWalkingSkeleton.Core\WeatherWalkingSkeleton.Core.csproj" />
-    <ProjectReference Include="..\WeatherWalkingSkeleton.Data\WeatherWalkingSkeleton.Data.csproj" />
   </ItemGroup>
-
 
 </Project>
