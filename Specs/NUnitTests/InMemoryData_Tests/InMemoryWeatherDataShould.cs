@@ -113,7 +113,7 @@ namespace NunitTests.InMemoryData_Tests
         }
 
         [Test]
-        public void Remove_citye_temperature()
+        public void Remove_city_temperature()
         {
             var expectedCityTemperatures = new List<CityTemperature>()
             {
